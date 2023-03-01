@@ -25,7 +25,7 @@ let persons = [
     },
   ];
 
-app.get('/api/persons', (request, response)=>{
+app.get('/', (request, response)=>{
     response.json(persons)
 })
 
